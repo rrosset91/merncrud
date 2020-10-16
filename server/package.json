@@ -4,12 +4,15 @@
   "description": "Fullstack MERN Crud app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "devStart": "nodemon app.js"
   },
   "author": "Roger Rosset",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.10.9"
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.5"
   }
 }
